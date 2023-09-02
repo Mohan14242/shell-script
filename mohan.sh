@@ -1,1 +1,3 @@
-print('this is the mohan')
+#!/bin/bash
+
+echo "hi i am learning the devops with aws"
