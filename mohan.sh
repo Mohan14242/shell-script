@@ -10,3 +10,5 @@ if [ "$EUID" -eq 0]; then
 else
     echo "not runnning as the root user"
 fi
+
+echo "usage $0[options]"
