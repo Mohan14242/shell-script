@@ -12,3 +12,5 @@ else
 fi
 
 echo "usage $0[options]"
+log_file='mohan.log'
+echo "$(date) -script $0 executed">>"$log_file"
