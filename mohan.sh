@@ -1,4 +1,5 @@
 #!/bin/bash
 
-date='date'
-echo "today date is $date"
+name="mohan"
+unset name
+echo "this is the $name"
