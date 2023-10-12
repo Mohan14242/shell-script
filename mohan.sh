@@ -1,8 +1,8 @@
 #!/bin/bash
 
-name1=$1
-name2=$2
-echo " hi $name1 how are  you this is $name2" 
-echo " hi $name2 i am fine what about you "
-echo " fine where are you $name1" 
-echo "i am in the home "
+echo "please enter your friend name mohan"
+read -p n1
+echo "please enter your name mohan"
+read -p n2
+echo "my name is $n1"
+echo "my firend name is $n2"
