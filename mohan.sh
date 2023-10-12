@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "hi mohan this is vijay how are you "
-echo " fine mohan what about you "
-echo "what abou the familyt "
-echo " they are alos fine mohan"
+name1=$1
+name2=$2
+echo " hi $name1 how are  you this is $name2" 
+echo " hi $name2 i am fine what about you "
+echo " fine where are you $name1" 
+echo "i am in the home " 
+
