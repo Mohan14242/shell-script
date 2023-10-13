@@ -1,9 +1,8 @@
 #!/bin/bash
 
-number=$1
-if [ $number -gt 10]
+if [$UID -eq 0]
 then 
-    echo "numebr is greater than 10"
-else    
-    echo "the number is less than 10"
+    yum install nginx -y
+else 
+    echo " please be an root user toperfomr this tasks "
 fi
