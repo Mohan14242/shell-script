@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [$UID -eq 0]
+if [ $UID -eq 0 ]
 then 
     yum install nginx -y
 else 
