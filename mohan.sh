@@ -6,3 +6,4 @@ then
     echo "numebr is greater than 10"
 else    
     echo "the number is less than 10"
+fi
