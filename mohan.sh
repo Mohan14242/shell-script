@@ -1,8 +1,7 @@
 #!/bin/bash
 
-number=$(( $# % 2 ))
-if [ $number -eq 1 ]; then 
-    echo  " odd numebr of arguments are provided"
-else
-    echo "even numebr of arguments are provoded"
-fi
+echo "the first argument :$1"
+echo "the second argument :$2"
+
+result="$1 $2"
+echo "concatenated arguments : $result"
