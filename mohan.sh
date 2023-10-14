@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo " the script name is $#"
-if [ $# -eq 2 ]; then 
-    echo "yes yu have provided the correct number of arguments"
+if [ $# -eq 0 ]; then 
+    echo "no arguments are provided"
 else
-    echo " you have not provided the enough arguments"
+    echo " more than one"
 fi
