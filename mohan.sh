@@ -1,8 +1,7 @@
 #!/bin/bash
 
-echo " the script name is $#"
-if [ $# -eq 0 ]; then 
-    echo "no arguments are provided"
+number=$(( $# % 2 ))
+if [ $number -eq 1 ]; then 
+    echo  " odd numebr of arguments are provided"
 else
-    echo " more than one"
-fi
+    echo "even numebr of arguments are provoded"
